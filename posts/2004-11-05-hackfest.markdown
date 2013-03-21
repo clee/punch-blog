@@ -1,0 +1,34 @@
+---
+title: hackfest
+published: true
+---
+
+So geiseri hosted a hackfest at his place in PA last weekend. I showed
+up and brought manyoso with me; Nadeem Hasan came down, as did Mirko
+Boehm. Zack Rusin was already there, and it was fairly awesome. My only
+regret is that, despite the awesome time I had, I didn't get any hacking
+done since I don't have a laptop anymore.
+
+Oh, yeah.
+
+Somebody broke into my car a couple of weeks ago. Shattered the quarter
+glass behind the passenger window, and stole my IBM Thinkpad T41 out of
+the back seat. (Well, the footspace behind the passenger seat. Close
+enough.) I have no idea where the laptop is, and, while the police have
+been informed, they haven't really proven to be that useful.
+
+End result: I have no laptop. So I was fairly useless at the hackfest as
+far as actual hacking goes. And my workstation at home is set up in a
+rather decidedly non-ergonomic fashion, which means that I can't really
+use the computer for extended periods of time without standing up and
+stretching out my knees.
+
+I do have plans for stuff to hack on and plenty of things to keep me
+busy though. So don't worry about that, guys. Just need my replacement
+laptop to come in from work, and maybe I can pick up a computer desk
+with my next paycheck somehow.
+
+Realized that I haven't blogged in a while, so these entries are a bit
+longer than the usual length. I doubt anybody will really care that
+much, but yeah. Maybe I can kick myself into blogging more frequently
+once I get some Tack hacking done again.

@@ -1,25 +1,15 @@
 {{> header }}
 
-    <div class="posts">
-
+<!-- this is the right shit for the index //-->
+	<div class="container">
+		<div class="twelve columns offset-by-two">
+			{{{ index }}}
 			{{#recent_posts}}
-      <article class="hentry"> 
-        <h2 class="entry-title"><a href="{{ permalink }}">{{{ title }}}</a></h2>
-				<time class="updated" datetime="{{ published_date }}" pubdate>{{#long_date}}{{published_date}}{{/long_date}}</time>
-
-        <div class="entry-content">
-          {{{ content }}}
-        </div>
-				{{#is_teaser}}
-        <div><a href="{{ permalink }}" class="more">More »</a></div>
-				{{/is_teaser}}
-      </article>
+			{{> post }}
 			{{/recent_posts}}
+		</div>
+	</div><!-- container -->
 
-		</div>
-		
-		<div id="browse_archive">
-			<a href="/archive">Browse Archive</a>
-		</div>
-    
+{{#javascript_bundle}}/js/all.js{{/javascript_bundle}}
+
 {{> footer }}

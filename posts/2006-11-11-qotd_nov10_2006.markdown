@@ -1,0 +1,12 @@
+---
+title: qotd
+published: true
+---
+
+**\<clee\>** how the fuck is dobey still on planet GNOME?  
+**\<clee\>** (though I admit I am amused by the response to his "please
+stop talking bad about us" post.)  
+**\<ajax\>** gnome isn't just about fucking ugly software  
+**\<ajax\>** it's also about fucking ugly icons
+
+(note: yes, I read Planet GNOME. And a dozen other Planet sites.)

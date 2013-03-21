@@ -1,0 +1,9 @@
+---
+title: qotd jan 5, 2006
+published: true
+---
+
+[ajax] it's like we've entered a [new level of geekhood][], one which I
+did not previously realize existed
+
+  [new level of geekhood]: http://nerfhaven.com/mods/

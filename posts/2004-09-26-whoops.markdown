@@ -1,0 +1,16 @@
+---
+title: whoops
+published: true
+---
+
+Ran out of disk space on tycho for a minute there.
+
+For those of you who don't know, tycho is the machine which hosts not
+only c133.org (and this my web site and email) but also planetKDE.org
+and Daniel Stone's fooishbar.org.
+
+So when it runs out of disk space, planet KDE goes down and my email
+stops arriving which makes me sad.
+
+It was getting to be about time to archive the email off again anyway.
+I'm up to 100M again in my Maildirs. Ugh.

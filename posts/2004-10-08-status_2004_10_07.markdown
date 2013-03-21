@@ -1,0 +1,20 @@
+---
+title: status 2004/10/07
+published: true
+---
+
+Damn. The past week has been awesome.  
+
+-   Did the functional testing and RHNQA on a KDE errata here.
+-   Filed bugs against gnome-panel, evolution-data-server,
+    bonobo-activation-server, and ran into a terribly amusing metacity
+    crasher.
+-   Did the functional testing on an ugly cyrus-sasl vulnerability.
+-   Did a \*new\* round of functional testing on a bug caused by the fix
+    to the ugly cyrus-sasl vulnerability.
+-   Pushed a release of redhat-artwork sometime last week anyway.
+-   Continued hacking on the Qt port of BlueCurve.
+
+</p>
+All in all, dangerously productive. Not to mention keeping track of
+email and IRC.

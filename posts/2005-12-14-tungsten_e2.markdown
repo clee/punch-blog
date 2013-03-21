@@ -1,0 +1,27 @@
+---
+title: tungsten e2
+published: true
+---
+
+My Palm arrived yesterday, finally.
+
+I've been playing with it, and it seems to be a really cool device,
+barring a few issues. It feels very solid, and I like that. What I
+dislike is the software.
+
+Don't get me wrong - I love PalmOS, but PalmOS 5 is trying to do things
+it's just not capable of and Graffiti 2 makes me want to throw my shiny
+new toy into a wall. For example, the hack that the PalmOS guys are
+using for showing focus selection? It breaks with at least half of the
+color themes that they ship on the device, because it doesn't draw the
+halo properly on the buttons. And the fact that I can't create my
+\*own\* color theme annoys me, too.
+
+I **need** to figure out some way to get Graffiti 1 working on this
+thing. I'm using a demo version of TealScript for now but it's a little
+on the slow side and I don't really like the idea of paying \$30 for it,
+especially since it's \*not\* a faithful reproduction.
+
+Sync works great over Bluetooth to my Mac mini, which is pleasing. The
+pilot-xfer command-line utilities on Linux seem to work very well too,
+which is good; I haven't tried any other utilities yet, but I will soon.

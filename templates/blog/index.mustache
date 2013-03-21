@@ -1,0 +1,14 @@
+{{> header }}
+
+<!-- this is the blog shit //-->
+	<div class="container">
+		<div class="twelve columns offset-by-two">
+			{{#recent_posts}}
+				{{> post}}
+			{{/recent_posts}}
+		</div>
+	</div><!-- container -->
+
+{{#javascript_bundle}}/js/all.js{{/javascript_bundle}}
+
+{{> footer }}

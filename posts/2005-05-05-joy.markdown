@@ -1,0 +1,22 @@
+---
+title: joy!
+published: true
+---
+
+My new toys arrived today.
+
+That's one [Lian-Li PC-60][], one Chaintech VNF4/Ultra motherboard, and
+one Athlon64 3000+ CPU.
+
+This machine is officially fast enough to scare me. I can play Doom3 at
+my monitor's native resolution (1680x1050) and the frame rate doesn't
+drop below 60fps even with baddies on the screen.
+
+The only other goodies I need to complete this box are a couple of 400G
+SATA drives. The Hitachi model is only \$275 on NewEgg, which means that
+it's now possible to put over 1TB of storage into a box for under
+\$1000.
+
+Holy shit life is good.
+
+  [Lian-Li PC-60]: http://c133.org/img/pc60.jpg

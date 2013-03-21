@@ -1,0 +1,10 @@
+---
+title: qotd
+published: true
+---
+
+<**ajax**> i pick good days to go to olpc office  
+<**ajax**> free ice cream in the lobby  
+<**keithp**> ajax: winning  
+<**keithp**> ajax: where is it from?  
+<**ajax**> buckets?

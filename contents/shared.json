@@ -1,6 +1,11 @@
 {
-	"site-title": "My Blog",
-	"tagline": "Collection of my thoughts, ideas and rants",
-	"host": "www.myblog.com",
-	"creator": "Your Name"
+	"site-title": "clee",
+	"tagline": "all clee, all the time",
+	"host": "c133.org",
+	"creator": "Chris Lee",
+
+	"navbar": [
+		{ "label": "/blog", "href": "/blog" },
+		{ "label": "/about", "href": "/about" }
+	]
 }

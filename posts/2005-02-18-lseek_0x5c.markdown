@@ -1,0 +1,22 @@
+---
+title: lseek(fd, 0x5c, SEEK_SET)
+published: true
+---
+
+Our Intel rep managed to secure me an 802.11a/b/g mini-PCI card for my
+ThinkPad. Direct from Intel. Totally sweet.
+
+Somehow managed to get the ThinkPad apart, and dropped in the new card,
+and connected the antennae, and turned it on, and was greeted rather
+rudely by two beeps and the infamous Error 1802.
+
+I was prepared for this though. I expected to spend the rest of the day
+hacking around IBM's evil authorized-miniPCI-card whitelist and being
+otherwise 1337 just like mjg59. But instead, I found the source for a
+neat little hack that resets part of the nvram to a magic value and
+disables the whitelist check.
+
+All this means for those of you who don't speak Geek is that I overrode
+some IBM stupidity and made my hardware work the way it should. Which
+should have been much easier, but hey, this is Linux, and we like things
+like lseek(fd, 0x5c, SEEK\_SET) just fine.

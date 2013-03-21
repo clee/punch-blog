@@ -1,0 +1,13 @@
+---
+title: new toy
+published: true
+---
+
+Picked up a new toy yesterday, a Logitech USB 200 headset. Hooray for
+USB audio! I'm amazed at how nice it is. I'm not an audiophile by any
+means, but this headset is a lot better than I was expecting. And it
+works great under Linux, as well as OS X. I hear it even works nicely
+under Windows...
+
+I love this stuff. Had fun trying to get everything to play to the
+headphones, but it wasn't too difficult. Highly recommended.

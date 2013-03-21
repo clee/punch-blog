@@ -1,10 +1,13 @@
 {{> header }}
 
-    <div id="main-content">
-			<h2>{{title}}</h2> 
+<!-- this is the generic _layout //-->
+	<div class="container">
+		<div class="twelve columns offset-by-two">
+			<h2>{{{ title }}}</h2> 
+			<p>{{{bio}}}</p>
+		</div>
+	</div><!-- container -->
 
-			{{{bio}}}
+{{#javascript_bundle}}/js/all.js{{/javascript_bundle}}
 
-    </div>
-   
 {{> footer }}

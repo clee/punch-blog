@@ -1,0 +1,54 @@
+---
+title: vonage review
+published: true
+---
+
+I decided that I was sick of paying too much money for my cell phone and
+so I've initiated a transfer of my cell phone number from Sprint/Nextel
+to Vonage.
+
+Vonage assigned me a temporary number in the meanwhile, which is cool,
+and I've been playing with the service.
+
+I have to say that I'm **really** pleased with it so far.
+
+Installation was literally a snap - I unpacked the router they sent me
+(the Linksys RTP300), plugged in the power, and scratched my head over
+what I should do next. I figured that I'd probably have to do some port
+forwarding magic or something if I wanted it to work from behind the
+router, so I punted on that and went to Target to pick up a handset
+since I haven't ever owned a "real" phone.
+
+Bought a \$9 handset at Target, a GE "Slimline" thing that has call
+waiting, caller ID, three-way calling, and other things that are insane
+for a \$9 phone. Anyway. I brought it back home, plugged it (and the
+ethernet cable) into my RTP300, and then mentally prepared myself for
+the frustration of having to do magic to get my main router to let the
+new toy do its thing.
+
+I was a little disappointed, actually.
+
+It just worked. No port forwarding, no iptables hackery, no headaches,
+no frustration - the lights flickered in a few weird patterns for a
+minute or so, and then I picked up the handset and I got a dial tone. I
+dialed my phone number and it asked me to log in to my voicemail.
+
+Consider me impressed. Not to mention that the web-based UI for managing
+the Vonage account is really really sweet - I have it set to send me
+email when I get a new voicemail, and you can check your voicemails from
+the web (they show up as WAV files), plus it's dead simple to set up
+call forwarding and configure the different timeouts for voicemail/call
+forwarding/etc.
+
+So, I don't know about the other routers - I've read lots of nightmare
+story reports from people using other hardware and things - or other
+phones or other VoIP providers, but so far I'm pretty damned impressed
+with Vonage. Oh, and for \$25/month, I get unlimited calls to anywhere
+in North America, including Canada, and their international rates are
+pretty good, too. I called [daniels][] up the other day and the
+conversation - which lasted for almost an hour - cost less than a combo
+meal at Burger King.
+
+Pretty sure the future is made out of **awesome**.
+
+  [daniels]: http://fooishbar.org/

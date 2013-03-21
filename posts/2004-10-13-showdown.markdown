@@ -1,0 +1,156 @@
+---
+title: showdown
+published: true
+---
+
+I blogged earlier about KDE potentially moving our repositories from the
+ancient and archaic CVS system to the new hotness known as
+[Subversion][].
+
+This time around, I've got more ammunition for discussion and a lot of
+thoughts about the relative strengths and weaknesses of each system as
+they apply to KDE. Hopefully other KDE developers will read these notes
+and at least take them into consideration when discussing our eventual
+move away from CVS.
+
+So - first off, a few words about CVS. CVS has served KDE faithfully for
+years, and has been (for us) fairly stable and reliable. It doesn't
+change much. And, believe it or not, CVS does have some strengths.   
+
+<table border="0" cellpadding="3" cellspacing="1">
+<tr>
+<th colspan="2">
+CVS
+
+</th>
+</tr>
+<tr>
+<th>
+Strengths
+
+</th>
+<th>
+Weaknesses
+
+</th>
+</tr>
+<tr>
+<td>
+-   Ubiquitous (practically every operating system on every platform can
+    run CVS)
+-   Relatively light on resource usage
+-   Comparitively light on disk usage
+-   It actually **works**
+
+</td>
+<td>
+-   Branching is painful
+-   Lacking in certain very basic features
+-   Lack of atomicity with commits; no transactions
+-   Not very well-optimized for low-bandwidth
+-   Difficulty handling binary files properly
+
+</td>
+</tr>
+</table>
+</p>
+Now, Subversion fixes a few of these issues, but at the core
+Subversion's goal is to be a better CVS than CVS. It doesn't implement
+wire compatibility, nor can it natively use the old CVS repository
+format; instead, it maintains the same ideas as CVS (namely the same
+centralized development model), as well as a compatible command-set
+except for areas where changes are needed to deal with Subversion having
+features that CVS doesn't.  
+
+<table cellpadding="3" cellspacing="1">
+<tr>
+<th colspan="2">
+Subversion
+
+</th>
+</tr>
+<tr>
+<th>
+Strengths
+
+</th>
+<th>
+Weaknesses
+
+</th>
+</tr>
+<tr>
+<td>
+-   Little to no learning curve if you already know CVS
+-   Atomic commits, with
+    <a title="If the commit fails - client kills it, connection dies, etc - it doesn't end up halfway in the repository. Instead, it fails completely.">transactions</a>
+-   File renames
+-   More efficient wire protocol for
+    <a title="Transmits diffs instead of full files whenever possible, both server-to-client and client-to-server">low-bandwidth</a>
+
+</td>
+<td>
+-   Disk usage is significantly higher than CVS for a converted
+    repository
+-   Subversion seems slower than CVS, quite a bit so in some cases
+-   Not nearly as ubiquitous as CVS (yet)
+-   Resource usage is relatively higher than CVS
+
+</td>
+</tr>
+</table>
+</p>
+And, just for good measure (basically, because I like it) I'll throw in
+a little bit about Arch, also known as 'tla'.  
+
+<table border="0" cellpadding="3" cellspacing="1">
+<tr>
+<th colspan="2">
+Arch
+
+</th>
+</tr>
+<tr>
+<th>
+Strengths
+
+</th>
+<th>
+Weaknesses
+
+</th>
+</tr>
+<tr>
+<td>
+-   Super intelligent merging support
+-   GPG signing support
+-   Seamless inter-archive branching support
+-   Very easy on server-side resources
+-   Offline commits
+
+</td>
+<td>
+-   Relatively high learning curve
+-   Nowhere near as ubiquitous as even Subversion
+-   Rather difficult and verbose user-interface
+-   Disk usage is also higher than CVS
+-   Speed is not very impressive
+
+</td>
+</tr>
+</table>
+</p>
+What does this mean for KDE?
+
+I think that Subversion is a much more natural fit for KDE than Arch. We
+have a very centralized development model; however, the disk usage issue
+is depressing to think about. I ran a test conversion of our kdelibs
+repository from CVS to Subversion, once using the Berkeley database
+backend and once using the new fsfs backend; the bdb backend takes up
+1194M of space, and the fsfs backend takes 1130M of space on my system.
+In comparison, the CVS repository takes up 281M of space for the same
+revisions. Some of the Subversion developers have offered me a few
+hints, but I cringe to think about how difficult the migration will be
+for a **large** module such as kde-i18n.
+
+  [Subversion]: http://subversion.tigris.org/

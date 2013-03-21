@@ -1,0 +1,11 @@
+---
+title: qotd
+published: true
+---
+
+[mgalgoci] policy I'd like to have set: "When people ask for email
+aliases, the aliases are granted on the grounds that IS gets to decide
+what the alias is."  
+[clee] mgalgoci: oh, oh! what's mine?  
+[hp] clee: I think your native american name is
+he-who-hopes-to-get-laid-using-enterprise-groupware-solution

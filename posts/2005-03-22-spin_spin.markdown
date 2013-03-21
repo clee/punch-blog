@@ -1,0 +1,11 @@
+---
+title: spin spin
+published: true
+---
+
+[Donnie][]: [Planet KDE][], and every ten minutes. I'm thinking about
+changing it to update every fifteen, though. We're getting enough feeds
+that we're spending more time updating than idling.
+
+  [Donnie]: http://www.livejournal.com/users/spyderous/13259.html
+  [Planet KDE]: http://planetKDE.org/

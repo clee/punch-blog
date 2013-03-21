@@ -1,0 +1,13 @@
+---
+title: xdevconf version 2.0
+published: true
+---
+
+Zack Rusin flew in and Adam Jackson drove up last night and both are
+crashing at my place.
+
+We're at the X Developers' Conference in Cambridge. ajax is taking
+notes, so I'll link to them once he uploads them.
+
+Anyway. Back to the discussion about freedesktop and current level of
+desuckification.

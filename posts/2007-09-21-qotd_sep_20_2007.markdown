@@ -1,0 +1,7 @@
+---
+title: qotd
+published: true
+---
+
+<**ajax**> it's like kicking a puppy  
+<**ajax**> ... in that's it's really fun

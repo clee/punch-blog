@@ -1,0 +1,10 @@
+---
+title: qotd
+published: true
+---
+
+<**clee**> man, git hates me.  
+<**daniels**> git does not love  
+<**daniels**> occasionally it roughly pleasures  
+<**daniels**> but there's no tender embrace, and definitely no
+breakfast the next morning

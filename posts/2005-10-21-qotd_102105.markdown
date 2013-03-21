@@ -1,0 +1,9 @@
+---
+title: qotd
+published: true
+---
+
+[kfoltman] is there any way to "record" a group of drawing operations
+into a sort of metafile, then render that metafile on a printer "drawing
+surface"?  
+[TD] kfoltman: yeah. it's called a PDF file ;)

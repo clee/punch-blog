@@ -1,0 +1,27 @@
+---
+title: #if 0
+published: true
+---
+
+There is a lot of really useless code sitting in Xorg today.
+
+I was playing with a CVS checkout and noticed a large chunk of one of
+the source files was commented out with \#if 0; so, this piqued my
+curiosity and I decided to figure out how many blocks of code are
+commented out with \#if 0 in the server, driver, and lib trees.
+
+The current count, in CVS HEAD, as of about five minutes ago:
+
+  module    blocks of \#if 0 code
+  --------- -----------------------
+  libs      56
+  server    408
+  drivers   648
+
+</p>
+All combined, that's 1112 blocks of code completely disabled at compile
+time just sitting there in the tree.
+
+Haven't bothered checking any of the other modules; I'm sure there's
+more in apps but I don't really think it matters for docs or fonts.
+Still. That's a lot of useless crap.

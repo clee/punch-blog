@@ -1,0 +1,236 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Animations
+	#Site Styles
+	#Page Styles
+	#Media Queries */
+
+/* #Animations
+ * =========== */
+@keyframes slideFromTop {
+	from { top: -48px; }
+	to { top: 0px; }
+}
+
+@-webkit-keyframes slideFromTop {
+	from { top: -48px; }
+	to { top: 0px; }
+}
+
+@keyframes slideFromLeft {
+	from { left: -220px; }
+	to { left: 0px; }
+}
+
+@-webkit-keyframes slideFromLeft {
+	from { left: -220px; }
+	to { left: 0px; }
+}
+
+@-webkit-keyframes power {
+	0% { -webkit-text-fill-color: hsl(230, 89%, 50%); }
+	50% { -webkit-text-fill-color: hsl(230, 90%, 55%); }
+	100% { -webkit-text-fill-color: hsl(230, 89%, 50%); }
+}
+
+/* #Site Styles
+================================================== */
+
+body {
+	background-color: hsl(150, 25%, 9%);
+	color: hsl(150, 25%, 40%);
+}
+
+::selection {
+	background: hsla(0, 0%, 50%, 1);
+}
+::-moz-selection {
+	background: hsla(0, 0%, 50%, 1);
+}
+
+h1#logo {
+	padding-top: 0.5ex;
+	font-size: 96px;
+	line-height: 1.0;
+	-webkit-text-stroke: 6px hsl(150, 35%, 10%);
+	-webkit-text-fill-color: #ccc;
+}
+
+h1#logo:hover {
+/*
+animation: power 2s infinite ease-in-out;
+-webkit-animation: power 2s infinite ease-in-out;
+*/
+}
+
+div.header.logo {
+	text-align: center;
+}
+
+header {
+	display: block;
+	padding: 0 auto;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 220px;
+	border-right: 6px solid #aaa;
+	background-color: hsl(150, 35%, 15%);
+	z-index: 1;
+	animation: slideFromLeft 0.5s ease-in-out;
+	-webkit-animation: slideFromLeft 0.5s ease-in-out;
+}
+
+header h2 {
+	font-family: 'Orbitron', sans-serif;
+	font-weight: bolder;
+}
+
+header nav {
+	font-family: 'Orbitron', sans-serif;
+	margin: 0 auto;
+	width: 100px;
+}
+
+header nav a {
+	text-decoration: none;
+	text-shadow: 2px hsl(150, 35%, 10%);
+}
+
+div.container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 60px 0 0 230px;
+	transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+}
+
+article h3 time {
+	color: hsla(150, 0%, 75%, 0.5);
+	font-size: 0.6em;
+
+	display: block;
+	float: right;
+	clear: both;
+}
+
+hr {
+	margin: 25px 0;
+	height: 1px;
+	border: 0;
+	background: hsla(150, 25%, 40%, 1);
+	background: -webkit-linear-gradient(0deg, hsla(150, 25%, 35%, 0.25), hsla(150, 25%, 40%, 1), hsla(150, 25%, 35%, 0.25));
+	background: linear-gradient(90deg, hsla(150, 25%, 35%, 0.25), hsla(150, 25%, 40%, 1), hsla(150, 25%, 35%, 0.25));
+}
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+/* GIANT FUCKING DISPLAYS */
+@media only screen and (min-width: 1920px) {
+	h1#logo {
+		font-size: 160px;
+		-webkit-text-stroke: 9px hsl(150, 35%, 10%);
+	}
+	div.header h2 {
+		font-size: 50px; line-height: 60px;
+	}
+	header {
+		width: 300px;
+		border-right: 9px solid #aaa;
+	}
+	div.container {
+		padding: 60px 0 0 310px;
+		font-size: 24px; line-height: 32px;
+	}
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 999px) {
+	div.header.logo, header, header ul, header nav, header li {
+		font-size: 18px;
+		display: inline;
+	}
+	header nav li {
+		padding-left: 1em;
+	}
+
+	h1#logo {
+		-webkit-text-stroke: 1px #300f13;
+	}
+	h1#logo, h2 {
+		font-size: 32px;
+		padding-left: 1ex;
+		line-height: 1.5;
+		display: inline;
+	}
+
+	header {
+		top: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+		height: 48px;
+		display: block;
+		position: fixed;
+		padding-top: 8px;
+		border-bottom: 2px solid #aaa;
+		float: none;
+		animation: slideFromTop 0.5s ease-in-out;
+		-webkit-animation: slideFromTop 0.5s ease-in-out;
+	}
+	body .container {
+		position: relative;
+		padding: 120px 0 0 0;
+	}
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+	header {
+		height: 32px;
+	}
+	h1#logo, h2 {
+		padding-top: 1ex;
+		font-size: 20px;
+		padding: 0 0 0 4px;
+		line-height: 1.5;
+	}
+	header nav li {
+		padding-left: 1ex;
+		font-size: 14px;
+	}
+
+	h3 {
+		font-size: 16px;
+	}
+
+	body .container {
+		position: absolute;
+		font-size: 14px;
+		padding: 60px 0 0 0;
+	}
+}

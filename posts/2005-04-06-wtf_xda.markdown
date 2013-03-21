@@ -1,0 +1,14 @@
+---
+title: wtf xda
+published: true
+---
+
+[@ajax] so working on DRI for i128, i turned off XAA  
+[@ajax] in the spirit of experimentation, i ran xcompmgr -a  
+[@ajax] it feels \_much\_ faster now  
+[@ajax] like, firefox doesn't tear when scrolling  
+[@ajax] it's kinda weird  
+[@daniels] hmm  
+[@daniels] maybe we should rename it to XDA :P  
+[@ajax] totally unaccelerated, but just fast enough to feel useful  
+[@ajax] the only unpleasant part is switching desktops

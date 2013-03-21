@@ -1,0 +1,15 @@
+---
+title: qotd
+published: true
+---
+
+[@ajax] i have found the greatest flash game ever  
+[@ajax] [http://www.ebaumsworld.com/kittycannon.html][]  
+[@daniels] 595ft  
+[@daniels] hm, 928ft  
+[@ajax] 1144ft is my record so far  
+[@daniels] now 1022  
+[@ajax] i'm pretty sure that if launching kittens out of cannons is
+wrong i don't want to be right
+
+  [http://www.ebaumsworld.com/kittycannon.html]: http://www.ebaumsworld.com/kittycannon.html

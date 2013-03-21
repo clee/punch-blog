@@ -1,0 +1,8 @@
+---
+title: qotd
+published: true
+---
+
+[ajax] zrusin has already threatened me with violence if gobject is ever
+attached to X  
+[ajax] and i can't afford that. i'm too pretty, and he fights dirty.

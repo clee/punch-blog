@@ -1,0 +1,30 @@
+---
+title: way to go, sparks, you broke the monitor <i>and</i> you're dead
+published: true
+---
+
+Lots of things going on lately.
+
+First off, most recently, I started hacking on [EXA support for the tdfx
+driver][] - it doesn't do much yet, except for display things wrong and
+crash, but hopefully I'm not too far from it working properly.
+
+Second, I finally coerced a graphic designer friend of mine into coming
+up with a new layout for my site. It's not live yet, because I'm not
+quite happy with it, but it's pretty close to ready (I think) - [take a
+look][] and [let me know][] what you think. (Yeah, I know, it's slow.
+It's using multiple layers of translucent PNGs, some of which are
+position: fixed. I prefer to think of it as "an opportunity for KHTML
+optimization.")
+
+Third, I have been hacking on the [Qt4 BitTorrent client from
+Andreas][], and it's really cool. There's a very small, slow memory leak
+in it, though, which I have to find and destroy.
+
+Other than that, not too much going on. I'm excited about aKademy - only
+a couple of weeks away!
+
+  [EXA support for the tdfx driver]: http://c133.org/tmp/tdfx-exa.patch
+  [take a look]: http://c133.org/c133/
+  [let me know]: mailto:clee@c133.org
+  [Qt4 BitTorrent client from Andreas]: http://blogs.qtdeveloper.net/archives/2005/07/26/

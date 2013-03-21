@@ -1,0 +1,32 @@
+---
+title: it's 4am
+published: true
+---
+
+mpyne has called me out and made it public that I have Grand Plans for a
+pyblosxom plugin which will read (via XML-RPC) a chunk of text and then
+throw it on the blog if it likes it.
+
+The trick is getting the plugin to like it.
+
+My idea currently is to make the chunk of text a valid GPG-signed
+message. Have the server plugin read it in, decode it, check the
+signature against the configured key ID from the pyblosxom config file,
+and then if all of the criteria match, post it on the blog.
+
+Have a few small issues to work out, but it looks like a lot of the hard
+work has been done for me. daniels wrote a Perl script that sort of does
+this if you filter email into it, but I hate Perl and the setup for that
+is annoying. Editing pyblosxom's config files is easy; I doubt that I'm
+going to end up losing data that way. If I somehow misconfigure a mail
+server, such that everything for my email ends up at blog@c133.org or
+something, I'll be fucked.
+
+And I don't like that. So, I guess this is the part where I formally
+announce that I have intentions to actually finish this module (since I
+have a half-aborted attempt at it from a while back), clean up the code
+so that my key ID and stuff are no longer hardcoded into it, and then
+there might actually be a public release.
+
+(Of course, once it's out, a KDE app which will be able to post to it,
+probably by using DCOP to communicate with KGPG, will be forthcoming.)

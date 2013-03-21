@@ -1,0 +1,22 @@
+---
+title: I kick ass
+published: true
+---
+
+Tonight is rocking hardcore.
+
+I spent about twenty minutes autotooling the 'nv' driver from the old
+monolithic X server tree, and convinced it to build under Daniel's
+Xizzle/Xorg tree.
+
+After a bit more hacking around with the build system (to get it to
+properly generate the Makefiles in the nv dir, and to get the new NV
+driver module loaded into the libdrivers.a), it actually worked!
+
+It loads the driver, and it sets the proper resolution, and everything!
+
+Now the only thing missing is composite support. Which is a little out
+of my league, but I have faith that the guys at Sun working on it (yeah,
+I'm looking at you, Stu and Deron) will pull it off.
+
+Damn, this has been a good night.

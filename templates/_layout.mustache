@@ -1,11 +1,18 @@
 {{> header }}
 
-		{{#is_post}}
-			{{> post}}
-		{{/is_post}}
-		
-		{{^is_post}}
-			{{> archive}}
-		{{/is_post}}
-    
+<!-- this is the generic _layout //-->
+	<div class="container">
+		<div class="twelve columns offset-by-two">
+			{{#is_post}}
+				{{> post}}
+			{{/is_post}}
+
+			{{^is_post}}
+				{{> archive }}
+			{{/is_post}}
+		</div>
+	</div><!-- container -->
+
+{{#javascript_bundle}}/js/all.js{{/javascript_bundle}}
+
 {{> footer }}

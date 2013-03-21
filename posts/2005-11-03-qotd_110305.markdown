@@ -1,0 +1,9 @@
+---
+title: qotd
+published: true
+---
+
+[ajax] alanc: oh, you mean like any sensible system would do  
+[alanc] since when has sensibility had anything to do with how X is
+built?  
+[ajax] touché

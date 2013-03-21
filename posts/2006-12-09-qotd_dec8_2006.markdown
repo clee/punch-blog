@@ -1,0 +1,8 @@
+---
+title: qotd
+published: true
+---
+
+**\<ajax\>** and if i'm marking up every sdk header \_anyway\_, i want
+to make a pass over them eliminating all the cases where we do struct
+foo { a, b, \#ifdef I\_KICK\_PUPPIES, c, \#endif, d, e, f }
